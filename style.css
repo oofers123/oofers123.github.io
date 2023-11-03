@@ -35,7 +35,7 @@ header h2{
     font-size: 32px;
     display: flex;
     align-items: center;
-    padding-left: 30%;
+    padding-left: 25%;
 }
 header a{
     font-size: 32px;
@@ -44,7 +44,7 @@ header a{
 }
 header a:hover{
     color: rgb(0, 140, 255);
-    transform: scale(1.03); 
+    transform: scale(1.04); 
 }
 header a:active{
     color: rgb(0, 140, 255);
@@ -478,13 +478,17 @@ footer a{
     margin-top: auto;
 }
 .BesteVideosNAV h3{
-    font-size: 100px;
-}
-.BesteVideosNAV p {
     font-size: 64px;
 }
+.BesteVideosNAV p {
+    font-size: 48px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #thumbnail{
-    width: 1000px;
+    width: 900px;
+    height: 600px;
     border-radius: 25px;
     transition: all .2s ease-in-out;
 }
@@ -500,8 +504,13 @@ footer a{
     text-align: center;
     background-color: rgb(28, 151, 252);
     width: 100%;
-    height: 450px;
+    height: 850px;
     color: white;
+}
+.ContactDiv p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 24px;
 }
 .ContactDiv ul{
     list-style-type: none;
@@ -545,7 +554,7 @@ footer a{
     background-image: url(img/Backgroundgs.png);
     background-size:100% 100%;
     width: 100%;
-    height: 10000px;
+    height: 13500px;
 }
 .GeschiedenisDIV img{
     height: 100px;
@@ -556,7 +565,7 @@ footer a{
     font-weight: bolder;
 }
 .GeschiedenisDIV p{
-    font-size: 20px;
+    font-size: 26px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -564,6 +573,10 @@ footer a{
 .GeschiedenisDIV a{
     color: white;
     font-size: 20px;
+}
+
+.GeschiedenisDIV a:hover{
+    color: rgb(165, 165, 165);
 }
 #GsImg{
     width: 200px;
