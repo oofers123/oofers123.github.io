@@ -1,0 +1,576 @@
+
+* {
+    box-sizing: border-box;
+  }
+  .px500w{
+      max-width: 800px;
+      font-size: 62px;
+      color: white;
+      padding-left: 150px;
+  }
+  .px500b{
+      max-width: 1600px;
+      font-size: 62px;
+      color: rgb(0, 0, 0);
+      padding-left: 850px;
+  }
+  .px500wr{
+      max-width: 1600px;
+      font-size: 62px;
+      color: rgb(255, 255, 255);
+      padding-left: 850px;
+  }
+header{
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+
+}
+header img{
+    width: 50px;
+    padding-bottom: 10px;
+}
+header h2{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+}
+header a{
+    font-size: 32px;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+header a:hover{
+    color: rgb(0, 140, 255);
+    transform: scale(1.03); 
+}
+header a:active{
+    color: rgb(0, 140, 255);
+    transform: scale(1.06); 
+}
+#Active{
+    color: rgb(0, 140, 255);
+}
+#Active:hover{
+    color: rgb(0, 64, 138);
+}
+.Article1 nav{
+    background-color: rgb(82, 113, 255);
+    height: 800px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+}
+.Article1 nav h2 {
+    color: white;
+    font-size: 81px;
+    margin-left: 150px; 
+}
+.Article1 nav img{
+    margin-left: 1100px;
+    position: relative;
+    top: -491px;
+    height: 650px;
+    transition: all .2s ease-in-out;
+}
+.Article1 nav img:hover{
+    transform: scale(1.1);
+    top: -520px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.Article2 nav{
+    height: 800px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+}
+.Article2 nav h2 {
+    color: rgb(0, 0, 0);
+    font-size: 81px;
+    padding-left: 850px; 
+}
+.Article2 nav a {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    margin-left: 250px;
+    position: relative;
+    top: -50px;
+}
+.Article2 nav a:hover {
+    color: rgb(28, 142, 255);
+}
+.Article2 nav img{
+    position: relative;
+    top: -775px;
+    width: 600px;
+    padding-left: -50px;
+    float: left;
+    object-fit: cover;
+    margin-bottom: 0px;
+    transition: all .2s ease-in-out;
+}
+.Article2 nav img:hover{
+    
+    transform: scale(1.1);
+}
+.Article3{
+    width: 90%;
+    padding-left: 10%;
+}
+.Article3 nav{
+    margin: auto;
+    height: 1000px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-image: url(img/mrbeast2.webp);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    left: 50%;
+    text-align: center;
+}
+
+.Article3 nav h2{
+    margin: auto;
+    position: absolute;
+    color: white;
+    font-size: 66px;
+    top: 1750px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left{
+    margin: auto;
+    position: absolute;
+    color: white;
+    font-size: 44px;
+    width: 400px;
+    top: 2000px;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.right{
+    margin: auto;
+    position: absolute;
+    color: white;
+    font-size: 44px;
+    width: 400px;
+    top: 2000px;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.Article3 nav a{
+    font-size: 45px;
+    margin: auto;
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 2500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+}
+
+.Article3 nav a:hover{
+    color: rgb(149, 202, 255);
+}
+.Article4 nav{
+    height: 800px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+    background-color: rgb(255, 0, 191);
+}
+.Article4 nav h2 {
+    color: rgb(255, 255, 255);
+    font-size: 81px;
+    padding-left: 850px; 
+}
+.Article4 nav img{
+    position: relative;
+    top: -600px;
+    width: 600px;
+    padding-left: -50px;
+    float: left;
+    object-fit: cover;
+    margin-bottom: 0px;
+    transition: all .2s ease-in-out;
+}
+.Article4 nav img:hover{
+    transform: scale(1.1);
+}
+.Article5 nav{
+    height: 800px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+    text-align: center;
+    background-image: url(img/mrbeastchocolate2.webp);
+    background-repeat: no-repeat;
+    background-size: 50%,50%;
+    background-position: center;
+    background-position-y: 50px;
+}
+.Article5 nav h2 {
+    margin: auto;
+    position: absolute;
+    color: rgb(125, 196, 255);
+    font-size: 300px;
+    max-width: 300%;
+    top: 1250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: rgb(255, 255, 255) 3px 0px 0px, rgb(255, 255, 255) 2.83487px 0.981584px 0px, rgb(255, 255, 255) 2.35766px 1.85511px 0px, rgb(255, 255, 255) 1.62091px 2.52441px 0px, rgb(255, 255, 255) 0.705713px 2.91581px 0px, rgb(255, 255, 255) -0.287171px 2.98622px 0px, rgb(255, 255, 255) -1.24844px 2.72789px 0px, rgb(255, 255, 255) -2.07227px 2.16926px 0px, rgb(255, 255, 255) -2.66798px 1.37182px 0px, rgb(255, 255, 255) -2.96998px 0.42336px 0px, rgb(255, 255, 255) -2.94502px -0.571704px 0px, rgb(255, 255, 255) -2.59586px -1.50383px 0px, rgb(255, 255, 255) -1.96093px -2.27041px 0px, rgb(255, 255, 255) -1.11013px -2.78704px 0px, rgb(255, 255, 255) -0.137119px -2.99686px 0px, rgb(255, 255, 255) 0.850987px -2.87677px 0px, rgb(255, 255, 255) 1.74541px -2.43999px 0px, rgb(255, 255, 255) 2.44769px -1.73459px 0px, rgb(255, 255, 255) 2.88051px -0.838247px 0px;
+
+}
+.Article5 nav p{
+    margin: auto;
+    position: absolute;
+    max-width: 800px;
+    font-size: 81px;
+    color: rgb(255, 255, 255);
+    top: 1180px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+
+}
+.Article5 nav ul{
+    margin: auto;
+    position: absolute;
+    max-width: 500px;
+    font-size: 62px;
+    color: rgb(255, 255, 255);
+    top: 1470px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+    text-align: left;
+}
+.Article6 nav{
+    background-color: rgb(82, 113, 255);
+    height: 800px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+}
+.Article6 nav h2 {
+    color: white;
+    font-size: 81px;
+    margin-left: 150px; 
+}
+.Article6 nav img{
+    margin-left: 1000px;
+    position: relative;
+    top: -500px;
+    height: 830px;
+    transition: all .2s ease-in-out;
+}
+.Article6 nav img:hover{
+    transform: scale(1.1);
+}
+.Article6 nav p{
+    font-size: 62px;
+    color: white;
+    margin-left: 150px;
+    max-width: 900px;
+    max-height: 50px;
+}
+#cookie img{
+    position: absolute;
+    width: 500px;
+    left: 700px;
+    top: 7480px;
+    transition: all .2s ease-in-out;
+}
+#cookie img:hover{
+    transform: scale(1.1); 
+}
+#cookie img:active{
+    transform: scale(1.2); 
+}
+.Article7 nav{
+    background-color: rgb(82, 113, 255);
+    height: 960px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+}
+.Article7 nav h2 {
+    margin: auto;
+    position: absolute;
+    color: white;
+    font-size: 66px;
+    top: 8180px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Article7 nav p{
+    font-size: 62px;
+    color: white;
+    margin-left: 150px;
+    max-width: 900px;
+    max-height: 50px;
+}
+#Article7Kopje{
+    margin: auto;
+    position: absolute;
+    color: white;
+    font-size: 88px;
+    top: 7380px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Article8 nav{
+    height: 1450px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+    text-align: center;
+}
+#Article8BTN{
+    font-size: 140px;
+    font-weight: bolder;
+    display: block;
+    width: 1200px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 30px;
+    margin: auto;
+    color: black;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+#Article8BTN:hover{
+    background-color: black;
+}
+.card{
+    background-color: rgb(206, 206, 206);
+    border-radius: 25px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 50px;
+    display: inline-block;
+}
+.card img{
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 470px;
+}
+.card h2{
+    font-size: 64px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.card p{
+    font-size: 24px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card a{
+    font-size: 38px;
+    border: 2px solid rgb(54, 121, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px 8px;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.card a:hover{
+    background-color: rgb(54, 121, 255);
+}
+.Article1 a{
+    font-size: 64px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-left: 50px;
+    transition: all .2s ease-in-out;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 150px; 
+}
+.Article1 a:hover{
+    background-color: rgb(255, 255, 255);
+}
+#BestVidsImg{
+    position: absolute;
+    right: 150px;
+    top: 4208px;
+}
+footer{
+    background-color: rgb(66, 66, 66);
+    height: 250px;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+}
+footer nav{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.footerright{
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+    margin: auto;
+    padding: auto;
+    margin-left: 75%;
+}
+.footerleft{
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    margin: auto;
+    padding: auto;
+    margin-left: 10%;
+    margin-bottom: -8%;
+    list-style-type:none;
+}
+.BesteVideosNAV{
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+    text-align: center;
+}
+.BesteVideosNAV img{
+    width: 650px;
+}
+.BesteVideosNAV h2{
+    font-size: 128px;
+    margin-top: auto;
+}
+.BesteVideosNAV h3{
+    font-size: 100px;
+}
+.BesteVideosNAV p {
+    font-size: 64px;
+}
+#thumbnail{
+    width: 1000px;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+#thumbnail:hover{
+    transform: scale(1.1);
+}
+.ContactDiv{
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(28, 151, 252);
+    width: 100%;
+    height: 450px;
+    color: white;
+}
+.ContactDiv ul{
+    list-style-type: none;
+}
+.ContactDiv h2{
+    font-size: 32px;
+}
+.TeamDIV nav{
+    background-color: rgb(82, 113, 255);
+    height: 800px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 100%;
+}
+.TeamDIV nav h2 {
+    color: white;
+    font-size: 81px;
+    margin-left: 150px; 
+}
+.TeamDIV nav img{
+    margin-left: 1000px;
+    position: relative;
+    top: -600px;
+    height: 350px;
+    transition: all .2s ease-in-out;
+    border-radius: 20px;
+}
+.TeamDIV nav img:hover{
+    transform: scale(1.1);
+}
+.GeschiedenisDIV{
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    color: white;
+    text-align: center;
+    background-color: black;
+    background-image: url(img/Backgroundgs.png);
+    background-size:100% 100%;
+    width: 100%;
+    height: 10000px;
+}
+.GeschiedenisDIV img{
+    height: 100px;
+}
+.GeschiedenisDIV h1{
+    margin-top: 15px;
+    font-size: 64px;
+    font-weight: bolder;
+}
+.GeschiedenisDIV p{
+    font-size: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.GeschiedenisDIV a{
+    color: white;
+    font-size: 20px;
+}
+#GsImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+}
+#GsImg:hover{
+    transform: scale(1.1);
+}
